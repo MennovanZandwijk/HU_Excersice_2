@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "project"
+version = "0.1.0"
+description = ""
+authors = ["ML_MENNO_VAN_ZANDWIJK <menno.vanzandwijk@student.hu.nl>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^1.11.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+mypy = "^0.950"
+pytest = "^7.1.2"
+pep8-naming = "^0.12.1"
+flake8-annotations = "^2.9.0"
+hypothesis = "^6.46.7"
+jupyter = "^1.0.0"
+cookiecutter = "^1.7.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
